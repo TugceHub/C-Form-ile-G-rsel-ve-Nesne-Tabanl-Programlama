@@ -1,4 +1,4 @@
-namespace Dosya_İşlemleri
+namespace Form_Islemleri
 {
     internal static class Program
     {
