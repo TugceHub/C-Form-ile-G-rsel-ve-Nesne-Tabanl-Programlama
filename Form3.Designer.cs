@@ -1,4 +1,4 @@
-﻿namespace Form_Islemleri
+﻿namespace LoginFormTasarimi
 {
     partial class Form3
     {
@@ -28,19 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            sifre = new Label();
             SuspendLayout();
+            // 
+            // sifre
+            // 
+            sifre.AutoSize = true;
+            sifre.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            sifre.ForeColor = Color.Transparent;
+            sifre.Location = new Point(35, 31);
+            sifre.Name = "sifre";
+            sifre.Size = new Size(86, 21);
+            sifre.TabIndex = 0;
+            sifre.Text = "Şifre : 1234";
             // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Info;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.IndianRed;
+            ClientSize = new Size(185, 92);
+            Controls.Add(sifre);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Form3";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form3";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label sifre;
     }
 }

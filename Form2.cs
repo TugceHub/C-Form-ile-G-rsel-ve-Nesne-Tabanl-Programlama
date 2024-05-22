@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Form_Islemleri
+namespace LoginFormTasarimi
 {
     public partial class Form2 : Form
     {
         public Form2()
         {
             InitializeComponent();
+        }
+
+        public string kullanici; // public olmazsa diğer formda görülmez
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            label2.Text = kullanici.ToString();
         }
     }
 }
