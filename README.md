@@ -1,1 +1,1 @@
-# C-Form-ile-G-rsel-ve-Nesne-Tabanl-Programlama
+# C-Form-ile-Görsel-ve-Nesne-Tabanl-Programlama
